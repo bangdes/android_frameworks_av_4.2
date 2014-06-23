@@ -368,6 +368,7 @@ const char CameraParameters::KEY_SHARPNESS[] = "sharpness";
 #ifdef QCOM_HARDWARE
 const char CameraParameters::KEY_MAX_SHARPNESS[] = "sharpness-max";
 const char CameraParameters::KEY_MIN_SHARPNESS[] = "sharpness-min";
+const char CameraParameters::KEY_DEF_SHARPNESS[] = "sharpness-def";
 #else
 const char CameraParameters::KEY_MAX_SHARPNESS[] = "max-sharpness";
 #endif
@@ -375,6 +376,7 @@ const char CameraParameters::KEY_CONTRAST[] = "contrast";
 #ifdef QCOM_HARDWARE
 const char CameraParameters::KEY_MAX_CONTRAST[] = "contrast-max";
 const char CameraParameters::KEY_MIN_CONTRAST[] = "contrast-min";
+const char CameraParameters::KEY_DEF_CONTRAST[] = "contrast-def";
 #else
 const char CameraParameters::KEY_MAX_CONTRAST[] = "max-contrast";
 #endif
@@ -382,6 +384,7 @@ const char CameraParameters::KEY_SATURATION[] = "saturation";
 #ifdef QCOM_HARDWARE
 const char CameraParameters::KEY_MAX_SATURATION[] = "saturation-max";
 const char CameraParameters::KEY_MIN_SATURATION[] = "saturation-min";
+const char CameraParameters::KEY_DEF_SATURATION[] = "saturation-def";
 #else
 const char CameraParameters::KEY_MAX_SATURATION[] = "max-saturation";
 #endif

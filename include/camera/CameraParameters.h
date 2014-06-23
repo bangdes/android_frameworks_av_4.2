@@ -908,16 +908,19 @@ public:
     static const char KEY_MAX_SHARPNESS[];
 #ifdef QCOM_HARDWARE
     static const char KEY_MIN_SHARPNESS[];
+    static const char KEY_DEF_SHARPNESS[];
 #endif
     static const char KEY_CONTRAST[];
     static const char KEY_MAX_CONTRAST[];
 #ifdef QCOM_HARDWARE
     static const char KEY_MIN_CONTRAST[];
+    static const char KEY_DEF_CONTRAST[];
 #endif
     static const char KEY_SATURATION[];
     static const char KEY_MAX_SATURATION[];
 #ifdef QCOM_HARDWARE
     static const char KEY_MIN_SATURATION[];
+    static const char KEY_DEF_SATURATION[];
 #endif
 
     static const char KEY_HISTOGRAM[] ;
